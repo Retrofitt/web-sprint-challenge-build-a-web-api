@@ -137,17 +137,26 @@ We have provided test data for all the resources.
 
 ## Submission format
 
-- [ ] Submit via Codegrade by pushing commits to your `main` branch.
-- [ ] Check Codegrade before the deadline to compare its results against your local tests.
-- [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
-- [ ] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
+- [x] Submit via Codegrade by pushing commits to your `main` branch.
+- [x] Check Codegrade before the deadline to compare its results against your local tests.
+- [x] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
+- [x] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
-1. Understand and explain the use of Middleware.
-1. The basic principles of the REST architectural style.
-1. Understand and explain the use of Express Routers.
-1. Describe tooling used to manually test the correctness of an API.
+    -Node.js is a runtime environment that lets us test our code outside of a browser, express is a framework that lets us use tools such as Router() to help us produce clean code
+
+2. Understand and explain the use of Middleware.
+    -Middleware in express is DRY code that can make changes and end the request-response cycle and keep our router code clean and readable
+
+3. The basic principles of the REST architectural style.
+    -Client sends a request, server sends a response
+
+4. Understand and explain the use of Express Routers.
+    -express routers let us keep our endpoints a little more DRY
+
+5. Describe tooling used to manually test the correctness of an API.
+    -Tools such as Postman & HTTPie let us test our API and its endpoints
